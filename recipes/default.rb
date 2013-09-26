@@ -7,3 +7,6 @@
 
 # apt-get
 package "zip"
+if platform_family?("rhel", "centos")
+  package "unzip"
+end
