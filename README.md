@@ -10,6 +10,8 @@ Installs [zip and unzip](http://packages.ubuntu.com/lucid/unzip). With the excep
 The following platforms are supported by this cookbook, meaning that the recipes run on these platforms without error:
 
 * Ubuntu
+* RHEL
+* Fedora
 
 # RECIPES
 
