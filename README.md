@@ -40,6 +40,14 @@ None
 5. Create new Pull Request
 
 
+## Contributors
+
+Many thanks go to the following who have contributed to making this cookbook even better:
+
+* **[@goruha](https://github.com/goruha)**
+    * add support for RHEL and CentOS platforms
+
+
 ## License
 
 **chef-zip**
