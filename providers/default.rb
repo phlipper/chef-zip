@@ -28,6 +28,7 @@ action :extract do
 
     bash "extract_#{source}" do
       cwd source_dir
+      flags "-e"
       code <<-EOH
         unzip #{source} -d #{extract_path}
         chown -R #{new_resource.owner}:#{new_resource.group} #{extract_path}
