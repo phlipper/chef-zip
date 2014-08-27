@@ -30,6 +30,20 @@ This cookbook installs the zip components if not present, and pulls updates if t
 
 None
 
+## Resources
+
+### zip
+
+#### Actions
+
+- :extract - action that extracts a ZIP archive
+
+#### Attribute parameters
+
+- owner - owner of the extracted archive content
+- group - group of the extracted archive content
+- path - optional path where to extract the content, by default it is current directory
+- source - source file with path if different then the name
 
 ## Contributing
 
